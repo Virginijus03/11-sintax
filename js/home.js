@@ -1,7 +1,7 @@
 // IMPORT
 import { dalyba } from './components/algebra/dalyba.js';
-import { kvadratu } from './components/algebra/kvadratas.js';
-import { sandauga } from './components/algebra/daugyba.js';
+import { kvadratas } from './components/algebra/kvadratas.js';
+import { daugyba } from './components/algebra/daugyba.js';
 import { skirtumas } from './components/algebra/skirtumas.js';
 import { suma } from './components/algebra/suma.js';
 import { vidurkis } from './components/algebra/vidurkis.js';
@@ -16,13 +16,13 @@ console.log(a);
 const b = skirtumas(8, 5);
 console.log(b);
 
-const c = sandauga(8, 5);
+const c = daugyba(8, 5);
 console.log(c);
 
 const d = dalyba(8, 5);
 console.log(d);
 
-const e = kvadratu(5);
+const e = kvadratas(5);
 console.log(e);
 
 const f = vidurkis([10, 8]);
