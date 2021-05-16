@@ -1,4 +1,4 @@
-function daugyba(a,b){
+const daugyba = (a, b) => {
     return a * b;
 }
 
